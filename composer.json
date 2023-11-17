@@ -1,0 +1,9 @@
+{
+    "name": "travis-ci/example",
+    "autoload": {
+        "psr-4": {
+            "TravisCiExample\\": "src/"
+        }
+    },
+    "require": {}
+}
