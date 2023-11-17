@@ -2,8 +2,13 @@
     "name": "travis-ci/example",
     "autoload": {
         "psr-4": {
-            "TravisCiExample\\": "src/"
+            "TravisCiExample\\": "src/",
+            "Test\\": "tests/"
         }
     },
-    "require": {}
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
 }
