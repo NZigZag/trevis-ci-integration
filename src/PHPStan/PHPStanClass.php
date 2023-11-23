@@ -8,6 +8,5 @@ class PHPStanClass
 
     public function test(int $val): void
     {
-
     }
 }
